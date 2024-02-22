@@ -1,0 +1,73 @@
+
+body{
+    background-color: rgba(0, 0, 0, 0.546);  
+ }
+ #amor{
+   display: flex;
+   justify-content: flex-end;   
+   flex-wrap: wrap;
+}
+#amor>div{
+   color: black;
+   margin-left: 2px;
+   width: 70px;
+   text-align: center;
+}
+ #divimp{
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+ }
+ #divimp>div>h1{
+    font-size: 80px;
+    font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal; 
+ }
+ #divimp>div>p{
+     margin-top: -5px;
+    font-family: "Fredoka", sans-serif;
+ }
+ #divmain{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+ 
+#divmain>div{
+    background-color: rgb(143, 153, 153);
+    text-align: center;
+    justify-content:center;
+    width: 220px;
+    height: 150px;
+    margin: 20px;
+   border-radius: 10px;  
+   box-shadow: 5px 5px 5px ;
+}
+#divmain>div>img{
+   width: 130px;
+   margin-top: -60px;     
+   
+}
+#divmain>h1{
+   transform: rotate(270deg);
+   font-family: "Philosopher", sans-serif;
+   font-weight: 400;
+   font-style: italic ;
+}
+#divmain>div>h2{
+  margin: 0px;
+}
+#divmain>button{
+   background-color:black;
+   margin-left: 30px; 
+   margin-top: 55px; 
+   color: white; 
+   width: 50px;
+   height: 50px;
+   border-radius: 50px;
+   border-color: black;   
+   
+}
+
+
